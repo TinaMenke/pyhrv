@@ -170,8 +170,8 @@ def poincare(nni=None,
 		plt.show()
 
 	# Output
-	args = (fig, sd1, sd2, sd2/sd1, area)
-	names = ('poincare_plot', 'sd1', 'sd2', 'sd_ratio', 'ellipse_area')
+	args = ( sd1, sd2, sd2/sd1, area)
+	names = ('sd1', 'sd2', 'sd_ratio', 'ellipse_area')
 	return biosppy.utils.ReturnTuple(args, names)
 
 
